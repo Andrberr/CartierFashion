@@ -21,7 +21,23 @@ class CartierCollectionsFragment : Fragment() {
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        with(binding) {
+            cartierLoveBtn.setOnClickListener {
 
+            }
+            justeUnClouBtn.setOnClickListener {
+
+            }
+            panthereBtn.setOnClickListener {
+
+            }
+            amuletteBtn.setOnClickListener {
+
+            }
+            clashBtn.setOnClickListener {
+
+            }
+        }
     }
 
     override fun onDestroyView() {

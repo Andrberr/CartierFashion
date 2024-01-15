@@ -1,5 +1,7 @@
 package cartier.cartierwatch.michaelkors.asos
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -32,9 +34,17 @@ class MenuFragment : Fragment() {
                 findNavController().navigate(R.id.navigation_about)
             }
             privacyPolicy.setOnClickListener {
-
+                openPrivacyPolicy()
             }
         }
+    }
+
+    private fun openPrivacyPolicy() {
+        val intent = Intent(
+            Intent.ACTION_VIEW,
+            Uri.parse("https://telegra.ph/Privacy-Policy-for-Cartier--Fashion-01-10")
+        )
+        startActivity(intent)
     }
 
     override fun onDestroyView() {

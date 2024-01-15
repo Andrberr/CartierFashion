@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/about_text"
         android:textColor="@color/white"
+        android:text="Cartier's jewelry collections represent the epitome of sophistication, style and craftsmanship that have made the brand a symbol of luxury and elegance. From their famous classic designs to their innovative and unique creations, Cartier continues to inspire jewelry aficionados around the world. These collections not only highlight Cartier's mastery of the brand, but also serve as the epitome of timeless elegance and style. Each piece of Cartier jewelry is infused with history, inspiration and unparalleled craftsmanship, making them true works of art in the world of jewelry."
         android:textSize="22sp" />
 </FrameLayout>

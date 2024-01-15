@@ -1,14 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".CartierCollectionsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/cartierLoveBtn"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_background"
+        android:gravity="center"
+        android:text="@string/cartier_love"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/justeUnClouBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/justeUnClouBtn"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_background"
+        android:gravity="center"
+        android:text="@string/juste_un_clou"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/panthereBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/panthereBtn"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_background"
+        android:gravity="center"
+        android:text="@string/panth_re_de_cartier"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/amuletteBtn"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_background"
+        android:gravity="center"
+        android:text="@string/amulette_de_cartier"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/panthereBtn"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/clashBtn"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_background"
+        android:gravity="center"
+        android:text="@string/clash_de_cartier"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/amuletteBtn"
+        app:layout_constraintWidth_percent="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
