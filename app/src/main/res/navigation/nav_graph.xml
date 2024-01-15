@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_menu">
+
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="cartier.cartierwatch.michaelkors.asos.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_cartierCollectionsFragment"
+            app:destination="@id/navigation_cartier_collections" />
+        <action
+            android:id="@+id/action_menuFragment_to_aboutFragment"
+            app:destination="@id/navigation_about" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_cartier_collections"
+        android:name="cartier.cartierwatch.michaelkors.asos.CartierCollectionsFragment"
+        android:label="fragment_cartier_collections"
+        tools:layout="@layout/fragment_cartier_collections" />
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="cartier.cartierwatch.michaelkors.asos.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
