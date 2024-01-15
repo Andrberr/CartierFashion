@@ -9,10 +9,9 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@drawable/cartier_logo"
-        app:layout_constraintBottom_toTopOf="@id/cartierCollections"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.6"
         app:layout_constraintStart_toStartOf="parent"

@@ -21,10 +21,19 @@
         android:id="@+id/navigation_cartier_collections"
         android:name="cartier.cartierwatch.michaelkors.asos.CartierCollectionsFragment"
         android:label="fragment_cartier_collections"
-        tools:layout="@layout/fragment_cartier_collections" />
+        tools:layout="@layout/fragment_cartier_collections" >
+        <action
+            android:id="@+id/action_navigation_cartier_collections_to_navigation_collection"
+            app:destination="@id/navigation_collection" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_about"
         android:name="cartier.cartierwatch.michaelkors.asos.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/navigation_collection"
+        android:name="cartier.cartierwatch.michaelkors.asos.CollectionFragment"
+        android:label="fragment_collection"
+        tools:layout="@layout/fragment_collection" />
 </navigation>

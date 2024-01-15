@@ -8,4 +8,41 @@
     <string name="panth_re_de_cartier">Panthère de Cartier</string>
     <string name="amulette_de_cartier">Amulette de Cartier</string>
     <string name="clash_de_cartier">Clash de Cartier</string>
+
+    <string name="cartier_love_title">The Cartier Love Collection stands as an enduring testament to timeless love and sophisticated style. Each piece within this iconic collection is a declaration of eternal commitment and refinement. Crafted with the utmost precision and adorned with the signature Love screw motifs, these exquisite creations have become synonymous with enduring bonds and devotion.</string>
+    <string name="cartier_love_1">The Love Bracelet, with its distinctive screw design, is not just a piece of jewelry; it\'s a symbol of unending affection. Crafted from luxurious materials such as yellow gold, white gold, rose gold, and paved with diamonds if desired, the Love Bracelet is an exquisite manifestation of enduring commitment. The bracelet is secured on the wrist with a screwdriver, emphasizing the idea that love is a bond that should be treasured and protected.</string>
+    <string name="cartier_love_2">The Love Ring captures the essence of eternal love in a circle of precious metal. Available in various metals and often embellished with diamonds, the ring\'s sleek and sophisticated design makes it a timeless accessory for any occasion. Wearing a Love Ring from Cartier is a distinctive way to express everlasting love and commitment.</string>
+    <string name="cartier_love_3">Love Necklaces by Cartier are a statement of elegance and devotion. Featuring the iconic Love motifs, these necklaces showcase the brand\'s unparalleled craftsmanship and attention to detail. Whether in a simple pendant design or an intricate chain, the Love Necklace exudes sophistication and adds a touch of romance to any ensemble.</string>
+
+    <string-array name="juste_un_clou_array">
+        <item>Cartier Love</item>
+        <item>Juste un Clou</item>
+        <item>Panthère de Cartier</item>
+        <item>Amulette de Cartier</item>
+        <item>Clash de Cartier</item>
+    </string-array>
+
+    <string-array name="panth_re_de_cartier_array">
+        <item>Cartier Love</item>
+        <item>Juste un Clou</item>
+        <item>Panthère de Cartier</item>
+        <item>Amulette de Cartier</item>
+        <item>Clash de Cartier</item>
+    </string-array>
+
+    <string-array name="amulette_de_cartier_array">
+        <item>Cartier Love</item>
+        <item>Juste un Clou</item>
+        <item>Panthère de Cartier</item>
+        <item>Amulette de Cartier</item>
+        <item>Clash de Cartier</item>
+    </string-array>
+
+    <string-array name="clash_de_cartier_array">
+        <item>Cartier Love</item>
+        <item>Juste un Clou</item>
+        <item>Panthère de Cartier</item>
+        <item>Amulette de Cartier</item>
+        <item>Clash de Cartier</item>
+    </string-array>
 </resources>
