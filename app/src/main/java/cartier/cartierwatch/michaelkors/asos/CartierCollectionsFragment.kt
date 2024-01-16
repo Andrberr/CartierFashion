@@ -24,6 +24,9 @@ class CartierCollectionsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         with(binding) {
+            backBtn.setOnClickListener {
+                findNavController().popBackStack()
+            }
             cartierLoveBtn.setOnClickListener {
                 navigateToCollectionFragment(1)
             }

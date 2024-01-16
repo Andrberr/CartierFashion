@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import cartier.cartierwatch.michaelkors.asos.databinding.FragmentCollectionBinding
 
@@ -25,6 +26,9 @@ class CollectionFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        binding.backBtn.setOnClickListener {
+            findNavController().popBackStack()
+        }
         val adapter = CollectionAdapter()
         binding.recycler.apply {
             this.adapter = adapter
