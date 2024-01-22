@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/navigation_menu">
+    app:startDestination="@id/navigation_splash">
 
     <fragment
         android:id="@+id/navigation_menu"
@@ -36,4 +36,13 @@
         android:name="cartier.cartierwatch.michaelkors.asos.CollectionFragment"
         android:label="fragment_collection"
         tools:layout="@layout/fragment_collection" />
+    <fragment
+        android:id="@+id/navigation_splash"
+        android:name="cartier.cartierwatch.michaelkors.asos.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_navigation_menu"
+            app:destination="@id/navigation_menu" />
+    </fragment>
 </navigation>
